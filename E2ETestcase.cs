@@ -9,7 +9,7 @@ namespace NUnitFrameworkFromScratch
     {
        
 
-        [Test]
+        [Test, Category("smoke")]
         [Description("Testcase is related to radio button")]
         public void Test1()
         { 
